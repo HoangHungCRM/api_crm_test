@@ -31,6 +31,6 @@ public class BaseServiceImpl {
 
     @Autowired
     public void setUserInfoMapper(UserInfoMapper userInfoMapper) {
-        this.userInfoMapper = this.userInfoMapper;
+        this.userInfoMapper = userInfoMapper;
     }
 }

@@ -15,10 +15,12 @@ public interface UserInfoMapper extends IBaseMapper<User, UserInfoDTO>{
     @Mapping(target = "id", source = "id")
     @Mapping(target = "username", source = "username")
     @Mapping(target = "roles", source = "roles")
+//    @Mapping(target = "action", source = "actionRoles")
     UserInfoDTO toListItemDest(User user);
 
     @Mapping(target = "id", source = "id")
     @Mapping(target = "username", source = "username")
     @Mapping(target = "roles", source = "roles")
+//    @Mapping(target = "action", source = "actionRoles")
     UserInfoDTO toDest(User user);
 }
